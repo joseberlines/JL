@@ -44,3 +44,7 @@ ipyleaflet
 # Python: plotting libraries (optional)
 plotly>=5,<6
 bqplot
+
+# Added by Jose
+ipyvuetify=1.8.2
+pandas=2.0
