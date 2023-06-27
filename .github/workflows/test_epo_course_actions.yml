@@ -1,0 +1,15 @@
+name: "test"
+
+on:
+  workflow_dispatch:
+    environement:
+      description: "Environement to deploy to"
+        type: environement
+        required: true
+jobs:
+  Build:
+    runs-on: ubuntu-latest
+    steps:
+      - run echo "building..."
+
+  
